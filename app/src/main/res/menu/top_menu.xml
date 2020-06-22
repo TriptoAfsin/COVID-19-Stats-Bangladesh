@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/about"
+        android:title="About"
+        ></item>
+    <item android:id="@+id/exit_app"
+        android:title="Exit"></item>
+    <item android:id="@+id/world_stat"
+        android:title="World Stat"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_public_24"></item>
+    <item android:id="@+id/reload"
+        android:title="Reload"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        ></item>
+</menu>
